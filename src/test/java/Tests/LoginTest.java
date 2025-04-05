@@ -18,6 +18,10 @@ public class LoginTest {
         loginPage.openLoginPage("https://aqaryaid.com/en");
         loginPage.closepopup();
         loginPage.clickLoginButton();
+        loginPage.enterEmail("abcd@gmail.com");
+        loginPage.enterPassword("Nish@2025");
+        loginPage.submit();
+        Thread.sleep(1000);
 
     }
 
